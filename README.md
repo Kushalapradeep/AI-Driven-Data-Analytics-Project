@@ -4,6 +4,14 @@
 
 This project explores sales performance data from a coffee shop using **Excel 365**, **AI-driven tools like Analyze Data and ChatGPT**, and interactive **dashboarding** techniques. The goal is to uncover trends, insights, and key business drivers using modern data analytics approaches with minimal code.
 
+To answer the business questions by Coffee Shop:
+ How do sales vary by day of the week and hour of the day?
+ Are there any peak times for sales activity?
+ What is the total sales revenue for each month?
+ How do sales vary across different store locations?
+ what is the average price/order per person
+ Which products are the best selling in terms of quantity and revenue?
+
 ---
 
 ## 🧠 Tools & Technologies Used:
@@ -35,18 +43,18 @@ This project explores sales performance data from a coffee shop using **Excel 36
 ## 📈 Dashboard Highlights:
 
 * **Line Chart**: Hourly Sales Trend
-* **Bar Chart**: Sales by Product Category
-* **Pie Chart**: Sales by Payment Method
-* **KPIs**: Total Revenue, Average Order Value, No. of Transactions
-* **Slicers**: Location, Month, Product Category
+* **Bar Chart**: Sales by Products, Orders on Weekdays, Orders over store locations
+* **Pie Chart**: Sales by Product category, size based on orders
+* **KPIs**: Total Revenue, Average Order Value, No. of Transactions, Average Order Qty
+* **Slicers**: Location, Month, Day
 
 ---
 
 ## 📊 Key Business Insights:
 
 * Identified peak sales months and hours
-* Most popular product categories by location
-* Preferred payment methods by customers
+* Most popular product categories and by location
+* Preferred Qty(size) ordered by customers
 * Seasonal sales patterns and store-wise comparison
 
 ---
@@ -59,12 +67,6 @@ Used Excel's **Analyze Data** and **ChatGPT** to quickly generate data summaries
 
 ## 📁 Files Included:
 
-* `Coffee Shop Sales - Dataset.xlsx` (cleaned & transformed)
+* `Coffee Shop Sales Analysis.xlsx` (cleaned & transformed)
 * Dashboard worksheet
-* Summary sheet with AI insights
 
----
-
-## ✅ Outcome:
-
-This no-code/low-code project highlights how beginner-friendly tools like Excel + AI can be used to perform **professional-level business analysis** and dashboarding — ideal for showcasing in a data analyst portfolio.
